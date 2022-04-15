@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="1" parallel="classes">
+	<test name="ChromeTest">
+		<parameter name="CrossBrowserTesting" value="Chrome" />
+		<parameter name="application_url"
+			value="https://10.10.10.14:9443/" />
+		<classes>
+			<!-- <class name="finarya_Tests.TC01_LoginAndLanding" /> -->
+			<!-- <class name="finarya_Tests.TC02_CreateViewDepartment" /> -->
+			<!-- <class name="finarya_Tests.TC03_UpdateViewDepartment" /> -->
+			<!-- <class name="finarya_Tests.TC04_DeleteDepartment" /> -->
+			<!-- <class name="finarya_Tests.TC05_ListDepartment" /> -->
+			<!-- <class name="finarya_Tests.TC06_UploadDepartment" /> -->
+			<!-- <class name="finarya_Tests.TC07_CreateViewProduct" /> -->
+			<!-- <class name="finarya_Tests.TC08_UpdateViewProduct" /> -->
+			<!-- <class name="finarya_Tests.TC09_DeleteProduct" /> -->
+			<!-- <class name="finarya_Tests.TC10_ListProduct" /> -->
+			<!-- <class name="finarya_Tests.TC12_CreateViewUser" /> -->
+			<!-- <class name="finarya_Tests.TC15_ListUser" /> -->
+			<!-- <class name="finarya_Tests.TC17_CreateViewProcess" /> -->
+			  <class name="finarya_Tests.TC20_ListProcess" />
+			<!-- <class name="finarya_Tests.TC32_CreateViewAudit" /> -->
+			<!-- <class name="finarya_Tests.TC36_AuditeeWorkbench" /> -->
+			<!-- <class name="finarya_Tests.TC37_AuditorWorkbench" /> -->
+			<!-- <class name="finarya_Tests.TC38_CreateViewIssue" /> -->
+			<!-- <class name="finarya_Tests.TC71_CreateAuditeeResponse" /> -->
+			<!-- <class name="finarya_Tests.TC72_CreateAuditorResponse" /> -->
+		</classes>
+	</test>
+</suite>
